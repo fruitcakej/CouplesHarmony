@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Couples Harmony</string>
+    <string name="Jamie">Jamie</string>
+    <string name="Julie">Julie</string>
+    <string name="dinnerJulie">Take Julie out for dinner</string>
+    <string name="bathJulie">Run Julie a bath</string>
+    <string name="dinnerJamie">Take Jamie out for dinner</string>
+    <string name="bathJamie">Run Jamie a bath</string>
+    <string name="Washing">Put my washing in the basket</string>
+    <string name="cleanKitchen">Clean the kitchen</string>
+    <string name="cleanBathroom">Clean the bathroom</string>
+    <string name="Results">Results</string>
+    <string name="startOver">Start Over</string>
+</resources>
