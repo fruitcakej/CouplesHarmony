@@ -26,7 +26,9 @@ public class MainActivity extends AppCompatActivity {
         }
 /**
  * Remove title bar for landscape mode, optimise space for this view
+ * source: stackoverflow
  */
+
         if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
             getSupportActionBar().hide();
         }
@@ -82,8 +84,6 @@ public class MainActivity extends AppCompatActivity {
         displayForJamie(scoreJamie);
     }
 
-
-
     /**  Julie
      * Increase the score for Julie for taking Jamie out to dinner!
      */
@@ -124,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
         displayForJulie(scoreJulie);
     }
 
-
     /**
      * Action for the Start Over button.
      */
@@ -146,8 +145,6 @@ public class MainActivity extends AppCompatActivity {
         String love = "There is no real winner, you both love each other!";
         displayMessage(love);
     }
-
-
 
     /**
      * Displays the given score for Jamie.
@@ -172,5 +169,4 @@ public class MainActivity extends AppCompatActivity {
         TextView lovemessage = (TextView) findViewById(R.id.love_message);
         lovemessage.setText(message);
     }
-
 }
